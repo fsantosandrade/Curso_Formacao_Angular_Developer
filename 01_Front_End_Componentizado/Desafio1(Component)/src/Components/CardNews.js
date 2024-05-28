@@ -1,0 +1,3 @@
+class CardNews extends HTMLElement {
+    
+}
