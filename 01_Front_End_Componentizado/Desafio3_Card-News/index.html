@@ -5,19 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 1</title>
     <link rel="stylesheet" href="style.css">
+    <script src="src/Components/CardNews.js" defer></script>
 </head>
 <body>
     <div class="container">
-        <div class="card">
-            <div class="card-left">
-                <span>By Felipe Santos</span>
-                <a href="#">Darth Vader Contrata Front-Ends</a>
-                <p>Ele procura desenvolvedores que saibam trabalhar com componentes</p>
-            </div>
-            <div class="card-right">
-                <img src="darthzinho.jpg" alt="Darth Vader">
-            </div>
-        </div>
-    </div>
+    <card-news 
+    usuario="Felipe"
+    titulo="Darth Vader Contrata Front-Ends"
+    url="https://www.youtube.com/watch?v=XqdEgUp7fO0"
+    conteudo="Ele procura desenvolvedores que saibam trabalhar com componentes"
+    image="darthzinho.jpg"
+    ></card-news>
+    <card-news 
+    usuario="Cristyane"
+    titulo="Darth Vader Faz Revelação!!"
+    url="https://www.youtube.com/watch?v=XqdEgUp7fO0"
+    conteudo="Ele odeia tudo e todos dizendo: 'Matarei tudo e todos!'."
+    image="darthzinho.jpg"
+    ></card-news>
 </body>
 </html>
