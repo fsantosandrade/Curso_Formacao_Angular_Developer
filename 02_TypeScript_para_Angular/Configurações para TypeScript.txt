@@ -1,0 +1,23 @@
+//Para criar arquivos .ts
+Passo 1: Crie um arquivo package com o comando npm init -y
+Passo 2: Instale o TypeScript localmente com o comando npm install typescript -D
+Passo 3: Crie seu arquivo com a extensão .ts
+
+//Para configurar o typescript
+Passo 1: Crie o arquivo de configurações para typescript com o comando npx tsc --init
+Passo 2: Dentro do arquivo configure a pasta de entrada no 'rootDir'
+Passo 3: Configure também a pasta de saída no 'outDir'
+
+//Para rodar arquivos
+Passo 1: Use o comando npx tsc para transpilar o arquivo
+Passo 2: Depois use o comando node no arquivo
+Passo 3: Para simplificar o comando vá no arquivo package e crie um script com o comando "npx tsc && node *nome do outDir*/*nome do arquivo*" 
+Passo 4: Utilize o comando npm run *nome do script*
+
+//Para melhorar a execução
+Passo 1: Instale o servidor de leitura local de typescript com o comando npm install ts-node-dev -D
+Passo 2: No arquivo package crie um novo script com o comando "ts-node-dev --respawn --transpile-only *arquivo*"
+Passo 3: Utilize o comando npm run *nome do script*
+
+Obs: Para para traduzir o arquivo typescript para javascript utilize npx tsc 'nomeDoArquivo'
+ 

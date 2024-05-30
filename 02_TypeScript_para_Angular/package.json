@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "npx tsc && node build/main.js",
+    "start": "npx tsc && node build/typescript_pt2.js",
+    "start:dev": "ts-node-dev --respawn --transpile-only src/typescript_pt3.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,6 +12,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.4.5"
   }
 }
