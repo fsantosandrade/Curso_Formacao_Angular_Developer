@@ -1,0 +1,15 @@
+1 - Componentes (Components)
+
+Os componentes são trechos de código isolado e encapsulado para o uso e reaproveitamento desse código. São trechos de html e css que pode vir a serem utilizados e reutilizados dentro do código.
+
+2 - Gerenciamento de Estados (States)
+
+O gerenciamento de estados é justamente o que 'conecta' dois componentes e faz a conversação entre eles, diminuindo e otimizando o código.
+
+3 - Roteamento (Routes ou Routing & Navigation)
+
+Responsável pela forma de navegar, fazendo a troca de URL sem recarregar a página, mudando somente os componentes que são mostrados na tela.
+
+4 - Renderização (Render)
+
+Responsável por decidir a melhor maneira de acessar e entregar para o browser o componente pronto para que ele seja desenhado na janela sem complicações.
