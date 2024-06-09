@@ -1,0 +1,15 @@
+Data Binding: Associação de dados
+
+Utilizamos métodos diferentes para nos comunicarmos com os componentes.
+
+//Interpolação: Quando queremos passar uma informação do componente pro template html.
+{{ valor }}
+
+// Property Binding: Quando queremos passar uma informação do componente pro template html.
+[propriedade] = "valor"
+
+// Event Binding: Quando queremos realizar algo do componente com uma informação passada pelo template html, sendo possível a passagem de parâmetros.
+(evento) = "método"
+
+//Two Way Data Binding: Quando queremos realizar uma comunicação mútua entre o html e a parte lógica do componente.
+[(ngModel)] = "propriedade" 
