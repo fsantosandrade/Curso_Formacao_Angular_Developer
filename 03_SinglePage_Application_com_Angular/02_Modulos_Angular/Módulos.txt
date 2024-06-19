@@ -1,0 +1,17 @@
+Módulos: "ng g m (nome do modulo)"
+
+Para trabalharmos com módulos precisamos pelo menos da importação do NgModule do @angular/core
+
+O NgModule é um decorator que possui algumas partes, sendo elas:
+
+declarations - Possui todos os componentes, diretivas e pipes
+imports - Onde ficam todos os outros módulos utilizados
+exports - Onde fica tudo que queremos fornecer para outros módulos
+providers - A camada de serviço que se comunica com outras áreas
+bootstrap - Aqui define os componentes de inicialização
+
+Módulos comuns de se criar:
+
+Módulo (nome do componente) - Módulo onde colocamos apenas os componentes que formam um muito mais completo.
+Módulo shared - Módulo de compartilhamento, geralmente aquilo que utilizaremos em mais de uma página.
+Pasta "pages" - Onde criamos os módulos com os nomes das páginas da nossa aplicação.

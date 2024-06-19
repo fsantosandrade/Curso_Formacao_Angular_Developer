@@ -1,0 +1,28 @@
+Diretivas Estruturais:
+
+*ngIf - Usado para deixar ou não de exibir algm item. Recebe 'true' ou 'false'
+Estrutura: *ngIf="true/false"
+
+Obs: Muito usado com o 'ng-template' para mostrar algo apenas em caso do ngIf ser falso, colocando o else no ngIf e um apelido com uma # no ng-template.
+
+*ngFor - Usado para repetir elementos como por exemplo um 'li' para uma quantidade dinâmica.
+Estrutura: *ngFor="let (variável) of (array); let i = index"
+
+Diretivas de Atributo:
+
+*ngClass - Usado para definir uma classe dinamicamente para um elemento
+Estrutura: [ngClass]="(propriedade ts)"
+
+*ngStyle - Usado para definir um estilo específico e dinâmico para um elemento
+Estrutura: [ngStyle]="(propriedade ts)"
+
+*ngModel - Usado para se comunicar com os dois lados
+Estrutura: [(ngModel)]="(propriedade ts)"
+Obs: Necessário importar o 'FormsModule' do '@angular/forms'
+
+*ngTemplate - É um modelo que não necessáriamente será usado no projeto
+Estrutura: <ng-template></ng-template>
+Obs: Recebe um apelido utilizando uma #
+
+*ngContent - Permite que um componente pai passe um conteúdo pro componente filho e isso possa ser arranjado dinâmicamente
+Estrutura: <ng-content select="(tag)"></ng-content>
