@@ -1,0 +1,12 @@
+<div class="card__container">
+    <div class="container__header">
+        <span class="header__name">{{ name }}</span>
+        <span class="header__number">{{ number }}</span>
+    </div>
+    <div class="container__img">
+        <img src="{{ photo }}" alt="{{ name }}">
+    </div>
+    <ul class="container__list-types">
+        <li *ngFor="let type of attributsTypes">{{ type }}</li>
+    </ul>
+</div>
