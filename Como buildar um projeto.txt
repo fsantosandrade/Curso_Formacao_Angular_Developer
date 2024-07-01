@@ -1,0 +1,4 @@
+ng build --configuration production --base-href "/angular-blog/"
+git add dist/
+git commit -m "Build for production"
+git subtree push --prefix dist origin gh-pages
