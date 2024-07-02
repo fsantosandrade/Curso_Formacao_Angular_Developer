@@ -33,7 +33,6 @@
 .card__container > .container__cont > .container__header > .header__name {
     color: white;
     margin-bottom: 5px;
-    text-transform: uppercase;
     font-weight: bold;
 }
 
@@ -68,5 +67,4 @@
     border-radius: 10px;
     font-size: 10px;
     font-weight: bold;
-    text-transform: uppercase;
 }

@@ -2,14 +2,14 @@
     <input type="text" (input)="getPokemon($any($event.target).value)">
     <div class="container__cont">
         <div class="container__header">
-            <span class="header__name">{{ pokemon.name }}</span>
+            <span class="header__name">{{ pokemon.name | transformador }}</span>
             <span class="header__number">{{ pokemon.id }}</span>
         </div>
         <div class="container__img">
             <img [src]="pokemon.sprites.front_default" [alt]="pokemon.name">
         </div>
         <ul class="container__list-types">
-            <li *ngFor="let i of pokemon.types" [ngClass]="(i.type.name)">{{ i.type.name }}</li>
+            <li *ngFor="let i of pokemon.types" [ngClass]="(i.type.name)">{{ i.type.name | uppercase }}</li>
         </ul>
     </div>
 </div>
